@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Opacity for heading & Paras*/
+.head-opacity{
+  opacity: 0.9;
+}
+.info-opacity{
+  opacity: 0.9;
+}
+
+/* Navbar ------------------------------*/
+
+.zerodha-logo{
+  width: 8rem;
+  height: 1rem;
+}
+
+.nav-link{
+  margin-left: 2.3rem;
+  opacity: 0.92;
+  font-weight: 500;
+  font-size: 0.92rem;
+}
+.nav-link:hover{
+  color: rgba(0, 0, 255, 0.553);
+}
+#navbarSupportedContent{
+  margin-left: 25rem;
+}
+
+
+/* Open Account -----------------------*/
+
+.open-acc-h1{
+  font-weight: 600;
+  /* color: rgb(28, 26, 26); */
+  opacity: 0.9;
+}
+.open-acc-p{
+  font-size: 0.99rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+.open-acc-signup-btn{
+  width: 20%;
+  margin: auto;
+  background-color: rgb(62, 114, 244);
+}
+.open-acc-signup-btn:hover{
+  background-color: rgb(29, 28, 28);
+}
+
+
+/* footer ---------------------------- */
+
+.foot-logo{
+  width: 10rem;
+}
+.foot-p{
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgba(81, 75, 75, 0.914);
+}
+.foot-list-head{
+  font-weight: 500;
+  opacity: 0.9;
+}
+.foot-point{
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(81, 75, 75, 0.914);
+}
+.foot-social-icon{
+  color: rgba(81, 75, 75, 0.914);
+}
+
+.foot-info{
+  font-size: 0.69rem;
+  font-weight: 500;
+  opacity: 0.5;
+}
+.foot-info a{
+  text-decoration: none;
+  opacity: 1;
+  color: rgb(2, 2, 221);
+}
+.foot-last-options{
+  font-size: 0.8rem;
+  font-weight: 500;
+  opacity: 0.9;
+  text-decoration: none;
+  color: gray;
+}
+
+/* Not Found */
+
+.not-found{
+  opacity: 0.9;
+}
+.not-found-head{
+  font-size: 3rem;
+}
+.not-found p{
+  font-size: 1.3rem;
+}
+
+
+/*-------------------------------- Home page -----------------------------------*/
+
+/* Hero ------------------------------*/
+
+.home-hero-signup{
+  width: 25%;
+  margin: 0 auto;
+  background-color: rgb(62, 114, 244);
+}
+.home-hero-p{
+  font-weight: 400;
+}
+
+.home-hero-signup:hover{
+  background-color: rgb(29, 28, 28);
+}
+
+
+/* Award --------------------------------*/
+
+.award-img{
+  width: 100%;
+  height: 100%;
+}
+.awards-pressImg{
+  width: 90%;
+}
+
+
+/* Stats -------------------------*/
+
+.stats-img{
+  width: 100%;
+}
+
+.stats-link{
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+
+/* Pricing --------------------------*/
+
+
+/* Education -------------------------*/
+
+.home-education-img{
+  height: 90%;
+}
+
+
+
+/*-------------------------- About --------------------------*/
+
+
+/* Hero & Team---------------------------*/
+
+.about-info-box , .about-ceo-info{
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+
+.about-ceo-img{
+  width: 75%;
+}
+
+
+/*------------------ Products --------------------------*/
+
+/* Hero-------------------------- */
+
+.products-hero-head{
+  font-size: 3rem;
+}
+.products-hero-info{
+  font-weight: 500;
+}
+
+
+/* LeftSection */
+
+.product-description{
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+.store-svg{
+  width: 9.5rem;
+  height: 3rem;
+}
+.store-svg:hover{
+  opacity: 0.8;
+}
+
+
+/* Universe ------------------------- */
+
+.universe-images-info{
+  font-size: 0.8rem;
+  font-weight: 500;
+  opacity: 0.6;
+}
+.universe-logo{
+  width: min-content;
+  max-width: 13.5rem;
+  height: 3.6rem;
+}
+
+
+
+/* ----------------- Pricing ----------------------------------- */
+
+
+/* Hero --------------------- */
+
+.pricing-hero-p{
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+.pricing-hero-icons{
+  width: 15rem;
+}
+
+
+/* Brokerage ---------------------- */
+
+.pricing-brok-ul{
+  line-height: 2.5rem;
+}
+
+
+/* --------------------Support----------------------------- */
+
+
+/* Hero ------------------- */
+
+.supportHero{
+  background-color: rgb(56, 126, 209);
+}
+.supp-hero-search-inp-box{
+  background-color: white;
+}
+.supp-hero-search{
+  border: none;
+  width: 100%;
+}
+
+.supp-hero-links a{
+  font-size: 1.1rem;
+  border-bottom: 1px solid white;
+}
+
+.supp-right-head{
+  font-size: 1.1rem;
+  border-bottom: 1px solid white;
+}
+
+.supp-featured{
+  line-height: 2.5rem;
+}
+.supp-featured a{
+  font-size: 1.1rem;
+}
+
+
+
+/* CreateTicket ---------------------*/
+.support-ul-head a{
+  color: black;
+}
+
+.support-ul{
+  list-style: none;
+}
+
+.support-ticket-list-item{
+  font-size: 0.9rem;
+}
+.support-ticket-list-item:hover{
+  color: rgb(90, 88, 88);
+}
